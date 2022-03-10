@@ -3,52 +3,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-body {
+/* SECCION GENERAL */
 
+body {
   background-color: white;
-  
+  margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #4f4f4f;
   margin: 0 0 15px;
   text-transform: uppercase;
+  /* text-align: center; */
 }
-
-.container {
+.txt-center {
+  text-align: center;
+}
+.left60 {
+  margin-left: 60px;
+}
+.mayuscula {
+text-transform: capitalize;
+}
+.ancho-pagina {
   width: 1170px;
   margin: 0 auto;
 }
-
-.seccion-gris {
+.fondo-oscuro {
   background-color: #f5f5f5;
- }
- 
-.cabecera {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2rem;
+  padding: 100px 0;
 }
-
-
+.fondo-claro {
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+.subrayado div {
+  background: #bcbcbc none repeat scroll 0 0;
+  height: 1px;
+  margin: 0 auto;
+  width: 77px;
+}
+.subrayado div.top {
+  margin-bottom: 3px;
+  width: 44px;
+  height: 2px;
+}
 .activo {
   font-weight: bolder;
 }
 
-
 /* SECCION MENU */
 
+.logo-y-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
 .menu-lista {
   display: flex;
 }
-
 .menu-lista-item {
   list-style: none;
   margin-left: 1.25rem;
 }
-
 .menu-lista-link {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
@@ -56,51 +80,41 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: bold;
   text-transform: lowercase;
 }
-
 .menu-lista-link:hover {
   text-decoration: underline;
   color: #919191;
 }
 
 /* SECCION BANNER */
-
-.banner {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.banner-img {
+  width: 100%;
 }
-
 .banner-texto {
-  margin-top: 0px;
-  top: 50%;
-  justify-content: flex-start;
+  position: absolute;
+  top: 10rem;
+  left: 10rem ;
 }
-
 .banner-texto h1 {
   color: #414141;
   font-size: 44px;
   line-height: 28px;
   margin-bottom: 30px;
 }
-
 .banner-texto h5 {
-  color: #919191;
+  color: #414141;
   letter-spacing: 1px;
   margin-bottom: 11px;
   font-size: 16px;
 }
-
 .banner-texto p {
   font-family: "Poppins", sans-serif;
   color: #6a6a6a;
   line-height: 18px;
   font-size: 16px;
 }
-
 .slider-imagen img {
   width: 350px;
 }
-
 .btn {
   background-color: #393939;
   border: 0 none;
@@ -114,18 +128,62 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: normal;
   text-align: center;
   vertical-align: middle;
-  cursor: pointer;  
+  cursor: pointer;
 }
-
 .btn:hover {
   background-color: black;
 }
-
 a {
-color: #ffffff;
-font-family: "Montserrat", sans-serif;
-font-weight: 400;
-text-transform: uppercase;
-line-height: 1;
-text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  text-decoration: none;
+}
+
+/* SECCION ACERCA DE MI */
+.about {
+  margin: 0 100px;
+  background-color: #919191;
+  display: flex;
+  justify-content:space-between;
+}
+
+/* SECCION ICONOS SOCIALES */
+.iconos-sociales {
+  position: absolute;
+  bottom: 10rem;
+  right: 10rem;
+}
+.iconos-sociales a {
+  color: #333;
+}
+.iconos-sociales .social {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 1.0s;
+  -moz-transition-duration: 1.0s;
+  -o-transition-duration: 1.0s;
+}
+.iconos-sociales .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+.iconos-sociales #social-fb:hover {
+  color: #3B5998;
+}
+.iconos-sociales #social-gh:hover {
+  color: #4099FF;
+}
+.iconos-sociales #social-li:hover {
+  color: #d34836;
+}
+.iconos-sociales #social-em:hover {
+  color: #f39c12;
 }
