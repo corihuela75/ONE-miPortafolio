@@ -1,15 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 /* SECCION GENERAL */
-
 body {
   background-color: white;
   margin: 0;
 }
-
+p,
+li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300px;
+  font-size: 14px;
+}
 h1,
 h2,
 h3,
@@ -17,7 +22,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   color: #4f4f4f;
   margin: 0 0 15px;
   text-transform: uppercase;
@@ -30,7 +35,7 @@ h6 {
   margin-left: 60px;
 }
 .mayuscula {
-text-transform: capitalize;
+  text-transform: capitalize;
 }
 .ancho-pagina {
   width: 1170px;
@@ -60,7 +65,6 @@ text-transform: capitalize;
 }
 
 /* SECCION MENU */
-
 .logo-y-menu {
   display: flex;
   justify-content: space-between;
@@ -88,11 +92,12 @@ text-transform: capitalize;
 /* SECCION BANNER */
 .banner-img {
   width: 100%;
+  opacity: 70%;
 }
 .banner-texto {
   position: absolute;
   top: 10rem;
-  left: 10rem ;
+  left: 10rem;
 }
 .banner-texto h1 {
   color: #414141;
@@ -112,9 +117,6 @@ text-transform: capitalize;
   line-height: 18px;
   font-size: 16px;
 }
-.slider-imagen img {
-  width: 350px;
-}
 .btn {
   background-color: #393939;
   border: 0 none;
@@ -125,7 +127,7 @@ text-transform: capitalize;
   padding: 0 50px;
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -142,14 +144,6 @@ a {
   text-decoration: none;
 }
 
-/* SECCION ACERCA DE MI */
-.about {
-  margin: 0 100px;
-  background-color: #919191;
-  display: flex;
-  justify-content:space-between;
-}
-
 /* SECCION ICONOS SOCIALES */
 .iconos-sociales {
   position: absolute;
@@ -163,9 +157,9 @@ a {
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
-  -webkit-transition-duration: 1.0s;
-  -moz-transition-duration: 1.0s;
-  -o-transition-duration: 1.0s;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
 }
 .iconos-sociales .social:hover {
   -webkit-transform: scale(1.1);
@@ -176,14 +170,93 @@ a {
   -o-transition-duration: 0.5s;
 }
 .iconos-sociales #social-fb:hover {
-  color: #3B5998;
+  color: #3b5998;
 }
 .iconos-sociales #social-gh:hover {
-  color: #4099FF;
+  color: #4099ff;
 }
 .iconos-sociales #social-li:hover {
   color: #d34836;
 }
 .iconos-sociales #social-em:hover {
   color: #f39c12;
+}
+
+/* SECCION ACERCA DE MI */
+.biografia {
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-mi-foto {
+  object-fit: contain;
+  width: 300px;
+  aspect-ratio: 1/1;
+  border-color: #393939;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* SECCION HOBBIES Y HABILIDADES */
+.habilidades {
+  padding: 20px 50px;
+}
+.item-skill {
+  width: 200px;
+  height:   ;
+  background-color: #4099ff;
+  margin: 10px 0px;
+}
+.linea {
+  width: 70%;
+  height: 7px;
+  background-color: #393939 ;
+  
+}
+
+
+
+
+
+
+/* SECCION FORMACIONES */
+.tabla-formaciones {
+  width: 100%;
+  padding: 20px;
+}
+
+.educacion, .experiencia {
+  width: 50%;
+  border-left: solid #bcbcbc 1px;
+  font-family: "Montserrat", sans-serif;
+  vertical-align: top ;
+}
+.formacion-datos {
+  padding-left: 20px; 
+}
+.formacion-titulo {
+  padding-top: 10px;
+  color: #414141;
+  font-weight: bold;  
+  font-size: 14px;
+  font-stretch: condensed ;
+}
+.formacion-subtitulo{
+  font-size: 12px;
+  color: #6a6a6a;
+  font-stretch: condensed ;
+}
+.year {
+  width: fit-content;
+  padding: 5px;
+  color: #ffffff;
+  position: relative;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin: 0 0 3px;
+  background-color: #f39c12;
+  padding: 5px 8px 5px 20px;
+  margin-left: -2px;
 }
