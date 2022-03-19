@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 
 /* SECCION GENERAL */
 body {
@@ -228,13 +229,28 @@ a {
   height: 7px;
   background-color: #393939;
 }
+.grilla {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+  grid-gap: 30px 30px;
+  justify-content: center;
+}
+.cuadro {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 25px;
+  color: #919191;
+  padding: 110px 10px 30px;
+  background-color: #ffffff;
+  border: solid 1px #bcbcbc;
+}
 
 /* SECCION FORMACIONES */
 .tabla-formaciones {
   width: 100%;
   padding: 20px;
 }
-
 .educacion,
 .experiencia {
   width: 50%;
@@ -322,4 +338,29 @@ a {
   margin: 0px 10px 10px 10px;
   font-weight: 600;
   color: #6a6a6a;
+}
+
+/* SECCION CONTACTO */
+.lista-contacto {
+  height: 100px;
+}
+.lista-contacto .titulo {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.lista-contacto .subtitulo {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.contacto-icono {
+  float: left;
+  font-size: 25px;
+  opacity: 0.5;
+  border: solid #393939 1px;
+  border-radius: 50%;  
+  padding: 10px;
+  margin: 5px;
 }
