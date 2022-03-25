@@ -1,0 +1,112 @@
+/* SECCION HOBBIES Y HABILIDADES */
+
+.habilidadesHobbies-softHard {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.habilidadesHobbies-skills_item {
+  margin-top: 25px;
+  width: 300px;
+  background-color: #4099ff;
+}
+.barra60 {
+animation-name: progreso60;
+animation-duration: 3000ms;
+}
+.barra70 {
+  animation-name: progreso70;
+  animation-duration: 3000ms;
+}
+.barra80 {
+  animation-name: progreso80;
+  animation-duration: 3000ms;
+  animation-timing-function: ease-in;
+}
+.linea60 {
+  width: 60%;
+  height: 20px;
+  background-color: #393939;
+}
+@keyframes progreso60 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+.linea70 {
+  width: 70%;
+  height: 20px;
+  background-color: #393939;
+}
+@keyframes progreso70 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.linea80 {
+  width: 80%;
+  height: 20px;
+  background-color: #393939;
+}
+@keyframes progreso80 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.habilidadesHobbies-softskills {
+  width: 70%;
+  padding: 20px 50px;
+}
+.habilidadesHobbies-hardskills {
+  width: 30%;
+  padding: 20px 50px;
+}
+.habilidadesHobbies-grilla {
+  display: grid;
+  justify-self: center;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+  grid-gap: 30px 30px;
+  justify-content: center;
+}
+.habilidadesHobbies-grilla_cuadro {
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 50px;
+  color: #393939;
+  padding: 10px;
+  background-color: #ffffff;
+  border: solid 1px #bcbcbc;
+}
+.habilidadesHobbies-grilla_cuadro:hover {
+  transition: 1000ms;
+  opacity: 1;
+  transform: scale(1.05);
+}
+.habilidadesHobbies-grilla_cuadro:hover .info {
+  display: block;
+}
+.habilidadesHobbies-grilla_cuadro:hover .linea70 {
+  display: block;
+}
+.info {
+  margin-top: 50px;
+  /* font-family: "Ubuntu Condensed", sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  color: #393939;
+  display: none;
+  font-stretch: condensed;
+  text-transform: uppercase;
+}

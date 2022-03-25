@@ -11,9 +11,11 @@ body {
   margin: 0;
 }
 p,
-li {
+li,
+input,
+textarea {
   font-family: "Montserrat", sans-serif;
-  font-weight: 300px;
+  font-weight: 400;
   font-size: 14px;
 }
 h1,
@@ -27,7 +29,9 @@ h6 {
   color: #4f4f4f;
   margin: 0 0 15px;
   text-transform: uppercase;
-  /* text-align: center; */
+}
+.activo {
+  font-weight: bolder;
 }
 .txt-center {
   text-align: center;
@@ -56,82 +60,29 @@ h6 {
   background-color: #ffffff;
   padding: 100px 0;
 }
-.subrayado div {
+.subrayado-top {
+  background: #bcbcbc none repeat scroll 0 0;
+  margin: 0 auto;
+  width: 45px;
+  height: 2px;
+}
+.subrayado-bottom {
   background: #bcbcbc none repeat scroll 0 0;
   height: 1px;
   margin: 0 auto;
-  width: 77px;
+  margin-top: 3px;
+  width: 80px;
 }
-.subrayado div.top {
-  margin-bottom: 3px;
-  width: 44px;
+.subrayado-izqbot {
+  background: #bcbcbc none repeat scroll 0 0;
+  height: 1px;
+  margin: 3px 0px;
+  width: 80px;
+}
+.subrayado-izqtop {
+  background: #bcbcbc none repeat scroll 0 0;
+  width: 45px;
   height: 2px;
-}
-.activo {
-  font-weight: bolder;
-}
-
-/* SECCION MENU */
-.logo-y-menu {
-  position: fixed;
-  width: 100%;
-  background-color: #ffffff;
-  z-index: 99;
-  border-bottom: #f5f5f5 solid 1px;
-}
-.logo {
-  float: left;
-  margin-left: 50px;
-}
-.menu {
-  float: right;
-  margin-right: 50px;
-}
-.menu-lista {
-  display: flex;
-}
-.menu-lista-item {
-  list-style: none;
-  margin-left: 1.25rem;
-}
-.menu-lista-link {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  color: #6a6a6a;
-  text-transform: lowercase;
-}
-.menu-lista-link:hover {
-  text-decoration: underline;
-  color: #919191;
-}
-
-/* SECCION BANNER */
-.banner-img {
-  width: 100%;
-  /* opacity: 70%; */
-}
-.banner-texto {
-  position: absolute;
-  top: 10rem;
-  left: 10rem;
-}
-.banner-texto h1 {
-  color: #414141;
-  font-size: 44px;
-  line-height: 28px;
-  margin-bottom: 30px;
-}
-.banner-texto h5 {
-  color: #414141;
-  letter-spacing: 1px;
-  margin-bottom: 11px;
-  font-size: 16px;
-}
-.banner-texto p {
-  font-family: "Poppins", sans-serif;
-  color: #6a6a6a;
-  line-height: 18px;
-  font-size: 16px;
 }
 .btn {
   background-color: #393939;
@@ -158,209 +109,4 @@ a {
   text-transform: uppercase;
   line-height: 1;
   text-decoration: none;
-}
-
-/* SECCION ICONOS SOCIALES */
-.iconos-sociales {
-  position: absolute;
-  bottom: 10rem;
-  right: 10rem;
-}
-.iconos-sociales a {
-  color: #333;
-}
-.iconos-sociales .social {
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -o-transition-duration: 1s;
-}
-.iconos-sociales .social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-}
-.iconos-sociales #social-fb:hover {
-  color: #3b5998;
-}
-.iconos-sociales #social-gh:hover {
-  color: #4099ff;
-}
-.iconos-sociales #social-li:hover {
-  color: #d34836;
-}
-.iconos-sociales #social-em:hover {
-  color: #f39c12;
-}
-
-/* SECCION ACERCA DE MI */
-.biografia {
-  margin: 0 100px;
-  display: flex;
-  justify-content: space-between;
-}
-.img-mi-foto {
-  object-fit: contain;
-  width: 300px;
-  aspect-ratio: 1/1;
-  border-color: #393939;
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 50%;
-  padding: 5px;
-}
-
-/* SECCION HOBBIES Y HABILIDADES */
-.habilidades {
-  padding: 20px 50px;
-}
-.item-skill {
-  width: 200px;
-  background-color: #4099ff;
-  margin: 10px 0px;
-}
-.linea {
-  width: 70%;
-  height: 7px;
-  background-color: #393939;
-}
-.grilla {
-  display: grid;
-  justify-self: center;
-  grid-template-columns: 150px 150px 150px 150px;
-  grid-template-rows: 150px 150px;
-  grid-gap: 30px 30px;
-  justify-content: center;
-}
-.cuadro {
-  font-family: "Ubuntu Condensed", sans-serif;
-  font-size: 25px;
-  color: #919191;
-  padding: 110px 10px 30px;
-  background-color: #ffffff;
-  border: solid 1px #bcbcbc;
-}
-
-/* SECCION FORMACIONES */
-.tabla-formaciones {
-  width: 100%;
-  padding: 20px;
-}
-.educacion,
-.experiencia {
-  width: 50%;
-  border-left: solid #bcbcbc 1px;
-  font-family: "Montserrat", sans-serif;
-  vertical-align: top;
-}
-.formacion-datos {
-  padding-left: 20px;
-}
-.formacion-titulo {
-  padding-top: 10px;
-  color: #414141;
-  font-weight: bold;
-  font-size: 14px;
-  font-stretch: condensed;
-}
-.formacion-subtitulo {
-  font-size: 12px;
-  color: #6a6a6a;
-  font-stretch: condensed;
-}
-.year {
-  width: fit-content;
-  padding: 5px;
-  color: #ffffff;
-  position: relative;
-  font-weight: bold;
-  line-height: 1.1em;
-  margin: 0 0 3px;
-  background-color: #f39c12;
-  padding: 5px 8px 5px 20px;
-  margin-left: -2px;
-}
-
-/* EXPERIENCIA EN PROGRAMACION */
-.galeria-fila {
-  display: flex;
-  padding: 50px 0px 0px 100px;
-}
-.img-portafolio {
-  width: 600px;
-  height: auto;
-  border: solid #ffffff 5px;
-  margin: 0px 30px;
-}
-.img-portafolio:hover {
-  opacity: 0.5;
-  transition: 1000ms;
-  transform: scale(0.9);
-}
-.btnPortafolio {
-  background-color: #4f4f4f;
-  border: 0 none;
-  border-radius: 5px;
-  font-size: 13px;
-  height: 42px;
-  line-height: 42px;
-  padding: 0 30px;
-  display: inline-block;
-  margin: 3px;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-}
-.btnPortafolio:hover {
-  background-color: #f39c12;
-}
-.tit-item-portafolio {
-  margin: 100px 10px 0px 10px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #4f4f4f;
-}
-.subtit-item-portafolio {
-  margin: 1px 10px 5px 10px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  color: #6a6a6a;
-}
-.tags-item-portafolio {
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  margin: 0px 10px 10px 10px;
-  font-weight: 600;
-  color: #6a6a6a;
-}
-
-/* SECCION CONTACTO */
-.lista-contacto {
-  height: 100px;
-}
-.lista-contacto .titulo {
-  margin: 0px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #4f4f4f;
-}
-.lista-contacto .subtitulo {
-  margin: 0px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-}
-.contacto-icono {
-  float: left;
-  font-size: 25px;
-  opacity: 0.5;
-  border: solid #393939 1px;
-  border-radius: 50%;  
-  padding: 10px;
-  margin: 5px;
 }

@@ -1,0 +1,66 @@
+/* SECCION BANNER */
+
+.banner-img {
+  width: 100%;
+}
+.banner-texto {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+}
+.banner-texto h1 {
+  color: #414141;
+  font-size: 44px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.banner-texto h5 {
+  color: #414141;
+  letter-spacing: 1px;
+  margin-bottom: 11px;
+  font-size: 16px;
+}
+.banner-texto p {
+  font-family: "Poppins", sans-serif;
+  color: #6a6a6a;
+  line-height: 18px;
+  font-size: 16px;
+}
+
+/* SECCION ICONOS SOCIALES */
+.iconos-sociales {
+  position: absolute;
+  bottom: 10rem;
+  right: 10rem;
+}
+.iconos-sociales a {
+  color: #333;
+}
+.iconos-sociales .social {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+}
+.iconos-sociales .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+.iconos-sociales #social-fb:hover {
+  color: #3b5998;
+}
+.iconos-sociales #social-gh:hover {
+  color: #4099ff;
+}
+.iconos-sociales #social-li:hover {
+  color: #d34836;
+}
+.iconos-sociales #social-em:hover {
+  color: #f39c12;
+}

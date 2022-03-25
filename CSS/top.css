@@ -1,0 +1,33 @@
+/* SECCION TOP */
+.top {
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 99;
+  border-bottom: #f5f5f5 solid 1px;
+}
+.top-logo {
+  float: left;
+  margin-left: 50px;
+}
+.top-menu {
+  float: right;
+  margin-right: 50px;
+}
+.top-menu-lista {
+  display: flex;
+}
+.top-menu-lista-item {
+  list-style: none;
+  margin-left: 1.25rem;
+}
+.menu-lista-link {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #6a6a6a;
+  text-transform: lowercase;
+}
+.menu-lista-link:hover {
+  text-decoration: underline;
+  color: #919191;
+}

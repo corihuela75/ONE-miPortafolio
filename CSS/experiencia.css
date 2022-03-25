@@ -1,0 +1,54 @@
+/* EXPERIENCIA EN PROGRAMACION */
+
+.experiencia-portafolio-fila {
+  display: flex;
+  padding: 50px 0px 0px 100px;
+}
+.experiencia-portafolio-img {
+  width: 600px;
+  height: auto;
+  border: solid #ffffff 5px;
+  margin: 0px 30px;
+}
+.experiencia-portafolio-img:hover {
+  opacity: 0.5;
+  transition: 1000ms;
+  transform: scale(0.9);
+}
+.experiencia-portafolio-btn {
+  background-color: #4f4f4f;
+  border: 0 none;
+  border-radius: 5px;
+  font-size: 13px;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 30px;
+  display: inline-block;
+  margin: 3px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.experiencia-portafolio-btn:hover {
+  background-color: #f39c12;
+}
+.experiencia-portafolio-titulo {
+  margin: 100px 10px 0px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #4f4f4f;
+}
+.experiencia-portafolio-subtitulo {
+  margin: 1px 10px 5px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #6a6a6a;
+}
+.experiencia-portafolio-tags {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 10px 10px 10px;
+  font-weight: 600;
+  color: #6a6a6a;
+}
