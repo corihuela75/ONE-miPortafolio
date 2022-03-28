@@ -2,6 +2,7 @@
 
 .habilidadesHobbies-softHard {
   margin: 10px;
+  /* height: 100%; */
   display: flex;
   justify-content: space-between;
 }
@@ -94,17 +95,17 @@ animation-duration: 3000ms;
   opacity: 1;
   transform: scale(1.05);
 }
-.habilidadesHobbies-grilla_cuadro:hover .info {
+.habilidadesHobbies-grilla_cuadro:hover 
+.habilidadesHobbies-info {
   display: block;
 }
 .habilidadesHobbies-grilla_cuadro:hover .linea70 {
   display: block;
 }
-.info {
+.habilidadesHobbies-info {
   margin-top: 50px;
-  /* font-family: "Ubuntu Condensed", sans-serif; */
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 22px;
+  font-size: 1.4rem;
   color: #393939;
   display: none;
   font-stretch: condensed;

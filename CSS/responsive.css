@@ -1,0 +1,150 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  /* SECCION GENERAL */
+
+  .ancho-pagina {
+    width: 100%;
+  }
+
+  /* SECCION TOP */
+
+  .top {
+    flex-direction: column;
+  }
+  .top-logo {
+    float: none;
+    margin: auto;
+  }
+  .top-menu-lista {
+    flex-direction: column;
+  }
+
+  /* SECCION ACERCA DE MI */
+
+  .acerca-biografia {
+    align-items: center;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .acerca-miFoto_img {
+    object-fit: contain;
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-color: #393939;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  /* SECCION HABILIDADES */
+
+  .habilidadesHobbies {
+
+  }
+  .habilidadesHobbies-softHard {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .habilidadesHobbies-skills_item {
+    margin: 0;
+    width: 100%;
+    background-color: #4099ff;
+  }
+  .habilidadesHobbies-softskills {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .habilidadesHobbies-hardskills {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .habilidadesHobbies-grilla {
+    grid-template-columns: 125px 125px;
+    grid-template-rows: repeat(8, 125px);
+    grid-gap: 10px 10px;
+    justify-content: center;
+  }
+  .habilidadesHobbies-info {
+    margin-top: 30px;
+    font-size: 1.1rem;
+  }
+
+  /* SECCION FORMACIONES */
+
+  .formaciones-tabla {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .formaciones-tabla-educacion,
+  .formaciones-tabla-experiencia {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  /* SECCION PORTAFOLIO */
+
+  .experiencia-portafolio-fila {
+    flex-direction: column;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .experiencia-portafolio-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border: none;
+  }
+  .experiencia-portafolio-titulo {
+    margin: 10px 10px 0px 10px;
+  }
+
+/* SECCION CONTACTO */
+
+.contacto {
+  flex-direction: column;
+}
+.contacto-izq {
+  width: 90%;
+  margin: 10px;
+}
+.contacto-der {
+  width: 90%;
+  margin: 10px;
+}
+.contacto-input {
+  width: 38%;
+  /* padding: 12px; */
+  /* margin: 20px 10px; */
+}
+.contacto-textarea {
+  width: 90%;
+  /* padding: 12px; */
+  /* margin: 10px; */
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...;
+}

@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="CSS/formaciones.css">
     <link rel="stylesheet" href="CSS/experiencia.css">
     <link rel="stylesheet" href="CSS/contacto.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
 
 
     <script src="https://kit.fontawesome.com/a5713228d6.js" crossorigin="anonymous"></script>
@@ -23,7 +25,7 @@
     <header>
         <!-- SECCION TOP -->
         <a name="home"></a>
-        <section class="top">
+        <section class="top ancho-pagina">
             <div class="top-logo">
                 <img src="img/CRIS.ORIH.png">
             </div>
@@ -44,342 +46,344 @@
 
         <!-- SECCION BANNER -->
         <section class="banner">
-            <img class="banner-img" src="img/mdp_panoramica.jpg"></img>
-            <div class="banner-texto">
-                <h5>Hola! mi nombre es</h5>
-                <h1>Cristian Orihuela</h1>
-                <p> fsjksd hfjkhdsf skfjdsj kfhsdakfjasd</p>
-                <a class="btn" href="#">Mi trabajo</a>
+
+            <div class="banner-img">
+                <div class="banner-texto">
+                    <h5>Hola! mi nombre es</h5>
+                    <h1>Cristian Orihuela</h1>
+                    <p> fsjksd hfjkhdsf skfjdsj kfhsdakfjasd</p>
+                    <a class="btn" href="#">Mi trabajo</a>
+                </div>
             </div>
-            <div class="iconos-sociales">
+        </section>
+    </header>
+    <main>
+        <!-- SECCION ACERCA DE MI -->
+        <a name="acerca"></a>
+        <section class="acercaDeMi fondo-claro ancho-pagina">
+            <div class="txt-center">
+                <h2>ACERCA DE MI</h2>
+            </div>
+            <div class="subrayado">
+                <div class="subrayado-top"></div>
+                <div class="subrayado-bottom"></div>
+            </div>
+            <div class="acerca-biografia">
                 <div>
-                    <a href="https://www.facebook.com/cmorihuela/"><i id="social-fb"
-                            class="fa fa-facebook-square fa-3x social"></i></a>
-                    <a href="https://github.com/corihuela75"><i id="social-gh"
-                            class="fa-brands fa-github-square fa-3x social"></i></a>
-                    <a href="https://www.linkedin.com/in/cristian-orihuela/"><i id="social-li"
-                            class="fa-brands fa-linkedin fa-3x social"></i></a>
-                    <a href="mailto:#ori@live.com.ar"><i id="social-em"
-                            class="fa fa-envelope-square fa-3x social"></i></a>
+                    <h3 class="mayuscula">Hola</h3>
+                    <ul>
+                        <li>Noobre: Cristian Orihuela</li>
+                        <li>Edad: 46 años</li>
+                        <li>Nacionalidad: argentino</li>
+                        <li>Biografia</li>
+                    </ul>
+                    <p>lala lala lallala la</p>
+                    <a class="btn" href="#">Descargar mi CV</a>
+                </div>
+                <div class="acerca-miFoto">
+                    <img class="acerca-miFoto_img" src="img/yo_3.png">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECCION HOBBIES -->
+        <a name="hobbies"></a>
+        <section class="habilidadesHobbies fondo-oscuro ancho-pagina">
+            <div class="txt-center">
+                <h2>HOBBIES Y HABILIDADES</h2>
+            </div>
+            <div class="subrayado">
+                <div class="subrayado-top"></div>
+                <div class="subrayado-bottom"></div>
+            </div>
+            <div class="habilidadesHobbies-softHard">
+                <div class="habilidadesHobbies-softskills">
+                    <h3>SOFTSKILLS</h3>
+                    <p>El trabajo en equipo: Ésta es una aptitud muy importante porque las personas no trabajan
+                        solas, por el contrario, los empleados se organizan en equipos de trabajo para lograr
+                        objetivos laborales comunes.</p>
+                    <p>La versatilidad: Permite que el trabajador se adapte o amolde a las nuevas situaciones que
+                        suelen presentarse en el trabajo sin previo aviso y que deben ser solucionadas.</p>
+                    <p>La creatividad: Es fundamental para hacer el trabajo y las tareas más dinámicas, además que
+                        es posible evaluarse con la aplicación de un test de aptitudes laborales. </p>
+                    <p>El liderazgo: Aptitud muy útil en el entorno laboral, porque incrementa la eficiencia de los
+                        gerentes o jefes en la dirección de sus equipos de trabajo.</p>
+                    <p>La seriedad: Esta aptitud es importante en la vida cotidiana, porque fomenta la credibilidad
+                        y la confianza en la persona que la posee, pero, además agrega valor al empleado.</p>
+                </div>
+                <div class="habilidadesHobbies-hardskills">
+                    <h3>HARDSKILLS</h3>
+
+                    <div class="habilidadesHobbies-skills_item">
+                        <div class="linea60" id="barra60"></div>
+                    </div>
+                    <h4>PROGRAMACION</h4>
+
+                    <div class="habilidadesHobbies-skills_item">
+                        <div class="linea80" id="barra80"></div>
+                    </div>
+                    <h4>DISEÑO WEB</h4>
+
+                    <div class="habilidadesHobbies-skills_item">
+                        <div class="linea70" id="barra70"></div>
+                    </div>
+                    <h4>DISEÑO GRAFICO</h4>
+                </div>
+
+            </div>
+            <div class="habilidadesHobbies-grilla">
+
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-brands fa-html5"></i>
+                    <span class="habilidadesHobbies-info">HTML5</span>
+                </div>
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-brands fa-css3-alt"></i>
+                    <span class="habilidadesHobbies-info">CCS3</span>
+                </div>
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-brands fa-js"></i>
+                    <span class="habilidadesHobbies-info">Javascript</span>
+                </div>
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-file-excel"></i>
+                    <span class="habilidadesHobbies-info">Excel</span>
+                </div>
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-futbol"></i>
+                    <span class="habilidadesHobbies-info">Fútbol</span>
+                </div>
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-gamepad"></i>
+                    <span class="habilidadesHobbies-info">Videojuegos</span>
+                </div>
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-hammer"></i>
+                    <span class="habilidadesHobbies-info">Carpinteria</span>
+                </div>
+                <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-tv"></i>
+                    <span class="habilidadesHobbies-info">Series TV</span>
                 </div>
             </div>
         </section>
 
-        <main>
-            <!-- SECCION ACERCA DE MI -->
-            <a name="acerca"></a>
-            <section class="acercaDeMi fondo-claro ancho-pagina">
-                <div class="txt-center">
-                    <h2>ACERCA DE MI</h2>
+        <!-- SECCION FORMACION Y EXPERIENCIA -->
+        <a name="formacion"></a>
+        <section class="formaciones fondo-claro ancho-pagina">
+            <div class="txt-center">
+                <h2>FORMACION y EXPERIENCIA</h2>
+            </div>
+            <div class="subrayado">
+                <div class="subrayado-top"></div>
+                <div class="subrayado-bottom"></div>
+            </div>
+            <div>
+                <div class="formaciones-tabla">
+
+                    <div class="formaciones-tabla-educacion">
+                        <h3>Educacion</h3>
+                        <div class="formacion-item">
+                            <div class="formacion-item-year">1994 - 1996</div>
+                            <div class="formacion-item-datos">
+                                <div class="formacion-item-datos_titulo">CONTADOR PUBLICO NACIONAL<BR>Y LIC.EN
+                                    ADMINISTRACION</div>
+                                <div class="formacion-item-datos_subtitulo">Universidad Nacional de Mar del
+                                    Plata</div>
+                                <p>Tercer año aprobado, 21 materias. Incompleto. </p>
+                            </div>
+                        </div>
+                        <div class="formacion-item">
+                            <div class="formacion-item-year">1989 - 1993</div>
+                            <div class="formacion-item-datos">
+                                <div class="formacion-item-datos_titulo">BACHILLER CONTABLE</div>
+                                <div class="formacion-item-datos_subtitulo">Escuela de Educación Media N°2</div>
+                                <p>Promedio general 8.63</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="formaciones-tabla-experiencia">
+                        <h3>Experiencia</h3>
+                        <div class="formacion-item">
+                            <div class="formacion-item-year">2002 - actualidad</div>
+                            <div class="formacion-item-datos">
+                                <div class="formacion-item-datos_titulo">HOTEL SPA REPUBLICA</div>
+                                <div class="formacion-item-datos_subtituloo">Jefe de Administración</div>
+                                <p>Jefe de Administración. Tesorero. Confección de Estados de Resultados
+                                    mensuales.
+                                    Administración de
+                                    personal. Informes financieros. Liquidación de sueldos. Control de stock y
+                                    costos de aaybb. Liquidación
+                                    mensual de impuestos y cierre de balance anual para Estudio.</p>
+                            </div>
+                        </div>
+                        <div class="formacion-item">
+                            <div class="formacion-item-year">1999 - 2002</div>
+                            <div class="formacion-item-datos">
+                                <div class="formacion-item-datos_titulo">PROVINTEL S.R.L.</div>
+                                <div class="formacion-item-datos_subtitulo">Analista Contable</div>
+                                <p>Contaduría. Conciliaciones bancarias. Liquidación de sueldos. Administración
+                                    de personal. Informes
+                                    gerenciales. Administración de Proveedores y Agencias Comerciales.</p>
+                            </div>
+                        </div>
+                        <div class="formacion-item">
+                            <div class="formacion-item-year">1997 - 1999</div>
+                            <div class="formacion-item-datos">
+                                <div class="formacion-item-datos_titulo">CULTIVOS S.R.L.</div>
+                                <div class="formacion-item-datos_subtitulo">Administrativo - Contable</div>
+                                <p>Facturación. Control y gestión de cuentas corrientes de clientes. Pagos a
+                                    Proveedores. Conciliaciones
+                                    bancarias. Control de stock. Despacho y seguimiento de mercaderías.
+                                    Liquidación de comisiones a
+                                    vendedores. Liquidación de sueldos e impuestos. Registraciones contables.
+                                    Preparación de balances.
+                                    Ajustes al cierre. Informes contables de uso interno.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="formacion-item">
+                            <div class="formacion-item-year">1995 - 1996</div>
+                            <div class="formacion-item-datos">
+                                <div class="formacion-item-datos_titulo">ESTUDIO CONTABLE DR. DANIEL ANGEL
+                                    FUMARONI</div>
+                                <div class="formacion-item-datos_subtitulo">Cadete administrativo</div>
+                                <p>Registraciones en libros de IVA. Imputaciones contables. DD.JJ. IVA y Cargas
+                                    Sociales. Liquidación de
+                                    sueldos. Trámites impositivos, bancarios, etc.</p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="subrayado">
-                    <div class="subrayado-top"></div>
-                    <div class="subrayado-bottom"></div>
-                </div>
-                <div class="acerca-biografia">
+            </div>
+        </section>
+
+        <!-- SECCION PORTAFOLIO -->
+        <a name="portafolio"></a>
+        <section class="experiencia fondo-oscuro ancho-pagina">
+            <div class="txt-center">
+                <h2>PORTAFOLIO</h2>
+            </div>
+            <div class="subrayado">
+                <div class="subrayado-top"></div>
+                <div class="subrayado-bottom"></div>
+            </div>
+            <div class="portafolio">
+                <!-- TRABAJO N`1 -->
+                <div class="experiencia-portafolio-fila">
+                    <img class="experiencia-portafolio-img" src="img/Portafolio/Guillotinado.png">
                     <div>
-                        <h3 class="mayuscula">Hola</h3>
-                        <ul>
-                            <li>Noobre: Cristian Orihuela</li>
-                            <li>Edad: 46 años</li>
-                            <li>Nacionalidad: argentino</li>
-                            <li>Biografia</li>
-                        </ul>
-                        <p>lala lala lallala la</p>
-                        <a class="btn" href="#">Descargar mi CV</a>
-                    </div>
-                    <div class="acerca-miFoto">
-                        <img class="acerca-miFoto_img" src="img/yo_3.png">
-                    </div>
-                </div>
-
-            </section>
-
-            <!-- SECCION HOBBIES -->
-            <a name="hobbies"></a>
-            <section class="habilidadesHobbies fondo-oscuro ancho-pagina">
-                <div class="txt-center">
-                    <h2>HOBBIES Y HABILIDADES</h2>
-                </div>
-                <div class="subrayado">
-                    <div class="subrayado-top"></div>
-                    <div class="subrayado-bottom"></div>
-                </div>
-                <div class="habilidadesHobbies-softHard">
-                    <div class="habilidadesHobbies-softskills">
-                        <h3>SOFTSKILLS</h3>
-                        <p>El trabajo en equipo: Ésta es una aptitud muy importante porque las personas no trabajan
-                            solas, por el contrario, los empleados se organizan en equipos de trabajo para lograr
-                            objetivos laborales comunes.</p>
-                        <p>La versatilidad: Permite que el trabajador se adapte o amolde a las nuevas situaciones que
-                            suelen presentarse en el trabajo sin previo aviso y que deben ser solucionadas.</p>
-                        <p>La creatividad: Es fundamental para hacer el trabajo y las tareas más dinámicas, además que
-                            es posible evaluarse con la aplicación de un test de aptitudes laborales. </p>
-                        <p>El liderazgo: Aptitud muy útil en el entorno laboral, porque incrementa la eficiencia de los
-                            gerentes o jefes en la dirección de sus equipos de trabajo.</p>
-                        <p>La seriedad: Esta aptitud es importante en la vida cotidiana, porque fomenta la credibilidad
-                            y la confianza en la persona que la posee, pero, además agrega valor al empleado.</p>
-                    </div>
-                    <div class="habilidadesHobbies-hardskills">
-                        <h3>HARDSKILLS</h3>
-
-                        <div class="habilidadesHobbies-skills_item">
-                            <div class="linea60" id="barra60"></div>
-                        </div>
-                        <h4>PROGRAMACION</h4>
-
-                        <div class="habilidadesHobbies-skills_item">
-                            <div class="linea80" id="barra80"></div>
-                        </div>
-                        <h4>DISEÑO WEB</h4>
-
-                        <div class="habilidadesHobbies-skills_item">
-                            <div class="linea70" id="barra70"></div>
-                        </div>
-                        <h4>DISEÑO GRAFICO</h4>
-                    </div>
-
-                </div>
-                <div class="habilidadesHobbies-grilla">
-
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-brands fa-html5"></i>
-                        <span class="info">HTML5</span>
-
-                    </div>
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-brands fa-css3-alt"></i>
-                        <span class="info">CCS3</span>
-                    </div>
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-brands fa-js"></i>
-                        <span class="info">Javascript</span>
-                    </div>
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-file-excel"></i>
-                        <span class="info">Excel</span>
-                    </div>
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-futbol"></i>
-                        <span class="info">Fútbol</span>
-                    </div>
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-gamepad"></i>
-                        <span class="info">Videojuegos</span>
-                    </div>
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-hammer"></i>
-                        <span class="info">Carpinteria</span>
-                    </div>
-                    <div class="habilidadesHobbies-grilla_cuadro"><i class="fa-solid fa-tv"></i>
-                        <span class="info">Series TV</span>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SECCION FORMACION Y EXPERIENCIA -->
-            <a name="formacion"></a>
-            <section class="formaciones fondo-claro ancho-pagina">
-                <div class="txt-center">
-                    <h2>FORMACION y EXPERIENCIA</h2>
-                </div>
-                <div class="subrayado">
-                    <div class="subrayado-top"></div>
-                    <div class="subrayado-bottom"></div>
-                </div>
-                <div>
-                    <table class="formaciones-tabla">
-                        <tbody>
-                            <td class="formaciones-tabla-educacion">
-                                <h3>Educacion</h3>
-                                <div class="formacion-item">
-                                    <div class="formacion-item-year">1994 - 1996</div>
-                                    <div class="formacion-item-datos">
-                                        <div class="formacion-item-datos_titulo">CONTADOR PUBLICO NACIONAL<BR>Y LIC.EN
-                                            ADMINISTRACION</div>
-                                        <div class="formacion-item-datos_subtitulo">Universidad Nacional de Mar del
-                                            Plata</div>
-                                        <p>Tercer año aprobado, 21 materias. Incompleto. </p>
-                                    </div>
-                                </div>
-                                <div class="formacion-item">
-                                    <div class="formacion-item-year">1989 - 1993</div>
-                                    <div class="formacion-item-datos">
-                                        <div class="formacion-item-datos_titulo">BACHILLER CONTABLE</div>
-                                        <div class="formacion-item-datos_subtitulo">Escuela de Educación Media N°2</div>
-                                        <p>Promedio general 8.63</p>
-                                    </div>
-                                </div>
-
-                            </td>
-                            <td class="formaciones-tabla-experiencia">
-                                <h3>Experiencia</h3>
-                                <div class="formacion-item">
-                                    <div class="formacion-item-year">2002 - actualidad</div>
-                                    <div class="formacion-item-datos">
-                                        <div class="formacion-item-datos_titulo">HOTEL SPA REPUBLICA</div>
-                                        <div class="formacion-item-datos_subtituloo">Jefe de Administración</div>
-                                        <p>Jefe de Administración. Tesorero. Confección de Estados de Resultados
-                                            mensuales.
-                                            Administración de
-                                            personal. Informes financieros. Liquidación de sueldos. Control de stock y
-                                            costos de aaybb. Liquidación
-                                            mensual de impuestos y cierre de balance anual para Estudio.</p>
-                                    </div>
-                                </div>
-                                <div class="formacion-item">
-                                    <div class="formacion-item-year">1999 - 2002</div>
-                                    <div class="formacion-item-datos">
-                                        <div class="formacion-item-datos_titulo">PROVINTEL S.R.L.</div>
-                                        <div class="formacion-item-datos_subtitulo">Analista Contable</div>
-                                        <p>Contaduría. Conciliaciones bancarias. Liquidación de sueldos. Administración
-                                            de personal. Informes
-                                            gerenciales. Administración de Proveedores y Agencias Comerciales.</p>
-                                    </div>
-                                </div>
-                                <div class="formacion-item">
-                                    <div class="formacion-item-year">1997 - 1999</div>
-                                    <div class="formacion-item-datos">
-                                        <div class="formacion-item-datos_titulo">CULTIVOS S.R.L.</div>
-                                        <div class="formacion-item-datos_subtitulo">Administrativo - Contable</div>
-                                        <p>Facturación. Control y gestión de cuentas corrientes de clientes. Pagos a
-                                            Proveedores. Conciliaciones
-                                            bancarias. Control de stock. Despacho y seguimiento de mercaderías.
-                                            Liquidación de comisiones a
-                                            vendedores. Liquidación de sueldos e impuestos. Registraciones contables.
-                                            Preparación de balances.
-                                            Ajustes al cierre. Informes contables de uso interno.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="formacion-item">
-                                    <div class="formacion-item-year">1995 - 1996</div>
-                                    <div class="formacion-item-datos">
-                                        <div class="formacion-item-datos_titulo">ESTUDIO CONTABLE DR. DANIEL ANGEL
-                                            FUMARONI</div>
-                                        <div class="formacion-item-datos_subtitulo">Cadete administrativo</div>
-                                        <p>Registraciones en libros de IVA. Imputaciones contables. DD.JJ. IVA y Cargas
-                                            Sociales. Liquidación de
-                                            sueldos. Trámites impositivos, bancarios, etc.</p>
-                                    </div>
-                                </div>
-                            </td>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-
-            <!-- SECCION PORTAFOLIO -->
-            <a name="portafolio"></a>
-            <section class="experiencia fondo-oscuro ancho-pagina">
-                <div class="txt-center">
-                    <h2>PORTAFOLIO</h2>
-                </div>
-                <div class="subrayado">
-                    <div class="subrayado-top"></div>
-                    <div class="subrayado-bottom"></div>
-                </div>
-                <div class="portafolio">
-                    <!-- TRABAJO N`1 -->
-                    <div class="experiencia-portafolio-fila">
-                        <img class="experiencia-portafolio-img" src="img/Portafolio/Guillotinado.png">
                         <div>
+                            <div class="experiencia-portafolio-titulo">Mi version del juego del ahorcado</div>
+                            <div class="experiencia-portafolio-subtitulo">Challenge #2 Oracle ONE Alura</div>
+                            <div class="experiencia-portafolio-tags">❬ HTML ❭ ❬ CSS ❭ ❬ JS ❭</div>
                             <div>
-                                <div class="experiencia-portafolio-titulo">Mi version del juego del ahorcado</div>
-                                <div class="experiencia-portafolio-subtitulo">Challenge #2 Oracle ONE Alura</div>
-                                <div class="experiencia-portafolio-tags">❬ HTML ❭ ❬ CSS ❭ ❬ JS ❭</div>
-                                <div>
-                                    <a class="experiencia-portafolio-btn"
-                                        href="https://github.com/corihuela75/ONE-Guillotinado.git">Repositorio</a>
-                                    <a class="experiencia-portafolio-btn"
-                                        href="https://corihuela75.github.io/ONE-Guillotinado/">ver
-                                        demo </a>
-                                </div>
+                                <a class="experiencia-portafolio-btn"
+                                    href="https://github.com/corihuela75/ONE-Guillotinado.git">Repositorio</a>
+                                <a class="experiencia-portafolio-btn"
+                                    href="https://corihuela75.github.io/ONE-Guillotinado/">ver
+                                    demo </a>
                             </div>
                         </div>
                     </div>
-                    <!-- TRABAJO N`2 -->
-                    <div class="experiencia-portafolio-fila">
-                        <div class="txt-derecha">
-                            <div>
-                                <div class="experiencia-portafolio-titulo">Encriptador / desencriptador</div>
-                                <div class="experiencia-portafolio-subtitulo">Challenge #1 Oracle ONE Alura</div>
-                                <div class="experiencia-portafolio-tags">❬ HTML ❭ ❬ CSS ❭ ❬ JS ❭</div>
-                                <div>
-                                    <a class="experiencia-portafolio-btn"
-                                        href="https://github.com/corihuela75/ONE-Encriptador.git">Repositorio</a>
-                                    <a class="experiencia-portafolio-btn"
-                                        href="https://corihuela75.github.io/ONE-Encriptador/encripta.html">ver demo </a>
-                                </div>
-                            </div>
-                        </div>
-                        <img class="experiencia-portafolio-img" src="img/Portafolio/Encriptador.png">
-                    </div>
-                    <!-- TRABAJO N`3 -->
-                    <div class="experiencia-portafolio-fila">
-                        <img class="experiencia-portafolio-img" src="img/Portafolio/miPortafolio.png">
+                </div>
+                <!-- TRABAJO N`2 -->
+                <div class="experiencia-portafolio-fila ">
+                    <img class="experiencia-portafolio-img" src="img/Portafolio/Encriptador.png">
+                    <div>
                         <div>
+                            <div class="experiencia-portafolio-titulo">Encriptador / desencriptador</div>
+                            <div class="experiencia-portafolio-subtitulo">Challenge #1 Oracle ONE Alura</div>
+                            <div class="experiencia-portafolio-tags">❬ HTML ❭ ❬ CSS ❭ ❬ JS ❭</div>
                             <div>
-                                <div class="experiencia-portafolio-titulo">Mi Portafolio Personal</div>
-                                <div class="experiencia-portafolio-subtitulo">Challenge #3 Oracle ONE Alura</div>
-                                <div class="experiencia-portafolio-tags">❬ HTML ❭ ❬ CSS ❭ ❬ JS ❭</div>
-                                <div>
-                                    <a class="experiencia-portafolio-btn"
-                                        href="https://github.com/corihuela75/ONE-miPortafolio.git">Repositorio</a>
-                                    <a class="experiencia-portafolio-btn"
-                                        href="https://corihuela75.github.io/ONE-miPortafolio/">ver
-                                        demo </a>
-                                </div>
+                                <a class="experiencia-portafolio-btn"
+                                    href="https://github.com/corihuela75/ONE-Encriptador.git">Repositorio</a>
+                                <a class="experiencia-portafolio-btn"
+                                    href="https://corihuela75.github.io/ONE-Encriptador/encripta.html">ver demo </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
-            </section>
+                <!-- TRABAJO N`3 -->
+                <div class="experiencia-portafolio-fila">
+                    <img class="experiencia-portafolio-img" src="img/Portafolio/miPortafolio.png">
+                    <div>
+                        <div>
+                            <div class="experiencia-portafolio-titulo">Mi Portafolio Personal</div>
+                            <div class="experiencia-portafolio-subtitulo">Challenge #3 Oracle ONE Alura</div>
+                            <div class="experiencia-portafolio-tags">❬ HTML ❭ ❬ CSS ❭ ❬ JS ❭</div>
+                            <div>
+                                <a class="experiencia-portafolio-btn"
+                                    href="https://github.com/corihuela75/ONE-miPortafolio.git">Repositorio</a>
+                                <a class="experiencia-portafolio-btn"
+                                    href="https://corihuela75.github.io/ONE-miPortafolio/">ver
+                                    demo </a>
+                            </div>
+                        </div>
+                    </div>
 
-            <!-- SECCION FORMULARIO -->
-            <a name="contacto"></a>
-            <section class="contacto fondo-claro ancho-pagina">
-                <div class="txt-izquierda">
-                    <h2>CONTACTATE CONMIGO</h2>
                 </div>
+            </div>
+        </section>
+
+        <!-- SECCION CONTACTO -->
+        <a name="contacto"></a>
+        <section class="contacto fondo-claro ancho-pagina">
+            <div class="contacto-izq">
+
+                <h2>CONTACTATE CONMIGO</h2>
+
                 <div>
                     <div class="subrayado-izqtop"></div>
                     <div class="subrayado-izqbot"></div>
                 </div>
-                <div class="contacto-izq">
-                    <p>Hay varias maneras de contactarme: </p>
-                    <table class="contacto-lista">
-                        <tr>
-                            <td><i class="fa-solid fa-phone contacto-icono"></i></td>
-                            <td>
-                                <h4 class="contacto-lista-titulo">Telefono</h4>
-                                <h5 class="contacto-lista-subtitulo">+54 223 590-3633</h5>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><i class="fa-solid fa-at contacto-icono"></i></td>
-                            <td>
-                                <h4 class="contacto-lista-titulo">email</h4>
-                                <h5 class="contacto-lista-subtitulo">ori@live.com.ar</h5>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><i class="fa-solid fa-location-crosshairs contacto-icono"></i></td>
-                            <td>
-                                <h4 class="contacto-lista-titulo">Ubicacion</h4>
-                                <h5 class="contacto-lista-subtitulo">Castex 2535 (7600) Mar del Plata, Argentina</h5>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="contacto-der">
-                    <form action="">
-                        <input class="contacto-input" type="text" name="tu-nombre" placeholder="Tu Nombre">
-                        <input class="contacto-input" type="text" name="tu-email" placeholder="Tu email">
-                        <textarea class="contacto-textarea" name="tu-texto" id="" cols="30" rows="10"
-                            placeholder="Texto"></textarea>
-                        <input class="contacto-submit btn" type="submit" name="Cris" placeholder="Holi">
-                    </form>
-                </div>
-            </section>
-        </main>
-        <footer>
 
-        </footer>
+                <p>Hay varias maneras de contactarme: </p>
+                <table class="contacto-lista">
+                    <tr>
+                        <td><i class="fa-solid fa-phone contacto-icono"></i></td>
+                        <td>
+                            <div class="contacto-lista-titulo">Telefono</div>
+                            <div class="contacto-lista-subtitulo">+54 223 590-3633</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-at contacto-icono"></i></td>
+                        <td>
+                            <div class="contacto-lista-titulo">email</div>
+                            <div class="contacto-lista-subtitulo">ori@live.com.ar</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-location-crosshairs contacto-icono"></i></td>
+                        <td>
+                            <div class="contacto-lista-titulo">Ubicacion</div>
+                            <div class="contacto-lista-subtitulo">Castex 2535 (7600) Mar del Plata, Argentina</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="contacto-der">
+                <form action="">
+                    <input class="contacto-input" type="text" name="tu-nombre" placeholder="Tu Nombre">
+                    <input class="contacto-input" type="text" name="tu-email" placeholder="Tu email">
+                    <textarea class="contacto-textarea" name="tu-texto" id="" cols="30" rows="10"
+                        placeholder="Texto"></textarea>
+                    <input class="contacto-submit btn" type="submit" name="Cris" placeholder="Holi">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+        <div class="footer-iconos fondo-oscuro">
+            <div>
+                <a href="https://www.facebook.com/cmorihuela/"><i id="social-fb"
+                        class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://github.com/corihuela75"><i id="social-gh"
+                        class="fa-brands fa-github-square fa-3x social"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-orihuela/"><i id="social-li"
+                        class="fa-brands fa-linkedin fa-3x social"></i></a>
+                <a href="mailto:#ori@live.com.ar"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 <script>

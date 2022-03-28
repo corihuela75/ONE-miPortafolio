@@ -1,8 +1,10 @@
 /* SECCION TOP */
 .top {
-  position: fixed;
   width: 100%;
-  background-color: #ffffff;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  background: #ffffff;
   z-index: 99;
   border-bottom: #f5f5f5 solid 1px;
 }
@@ -26,6 +28,7 @@
   text-decoration: none;
   color: #6a6a6a;
   text-transform: lowercase;
+  font-stretch: condensed;
 }
 .menu-lista-link:hover {
   text-decoration: underline;

@@ -1,24 +1,25 @@
 /* SECCION CONTACTO */
 
+.contacto {
+  display: flex;
+}
 .contacto-izq {
   width: 40%;
-  float: left;
 }
 .contacto-der {
   width: 60%;
   margin: auto;
-  float: right;
 }
 .contacto-lista {
   height: 100px;
 }
-.lista-contacto-titulo {
+.contacto-lista-titulo {
   margin: 0px;
   font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
   font-weight: 600;
-  color: #4f4f4f;
 }
-.lista-contacto-subtitulo {
+.contacto-lista-subtitulo {
   margin: 0px;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;

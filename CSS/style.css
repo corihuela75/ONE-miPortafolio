@@ -16,7 +16,7 @@ input,
 textarea {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1rem;
 }
 h1,
 h2,
@@ -27,7 +27,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #4f4f4f;
-  margin: 0 0 15px;
+  margin: 0 0 1rem;
   text-transform: uppercase;
 }
 .activo {
@@ -35,9 +35,6 @@ h6 {
 }
 .txt-center {
   text-align: center;
-}
-.txt-derecha {
-  text-align: right;
 }
 .txt-izquierda {
   text-align: leftt;
