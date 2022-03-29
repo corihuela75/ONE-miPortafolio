@@ -1,12 +1,17 @@
 /* SECCION BANNER */
+
 .banner-img {
   width: 100%;
+  min-width: 1170px;
   height: 700px;
+  background-blend-mode: lighten;
   background: url("../img/mdp_panoramica.jpg") no-repeat center;
+  
 }
+
 .banner-texto {
-/* width: 100%; */
-padding-left: 200px;
+  padding-top: 10%;
+  padding-left: 20%;
 }
 .banner-texto h1 {
   color: #414141;

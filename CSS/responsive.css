@@ -1,6 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
   /* SECCION GENERAL */
 
   .ancho-pagina {
@@ -11,14 +10,62 @@
 
   .top {
     flex-direction: column;
+    position: relative;
   }
   .top-logo {
-    float: none;
+    display: block;
+    /* position: relative; */
     margin: auto;
   }
-  .top-menu-lista {
-    flex-direction: column;
+  .top-menu {
+    height: 100%;
   }
+  .top-menu-lista {
+    border: 1px solid #ddd;
+    line-height: 1.7rem;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+    padding: 0;
+  }
+  .top-menu-lista-item {
+    border-bottom: 1px solid #ddd;
+    margin-left: 0.75rem;
+  }
+
+  /* SECCION BANNER */
+
+  .banner-texto {
+    padding-left: 15px;
+    padding-top: 50px;
+  }
+  .banner-img {
+    min-width: 100%;
+    width: 100%;
+    height: 400px;
+    background-size: auto;
+  }
+  .banner-texto h1 {
+    font-size: 1.5rem;
+    line-height: .5rem;
+    margin-bottom: 30px;
+  }
+  .banner-texto h5 {
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+  }
+  .banner-texto p {
+    line-height: 0.7rem;
+    font-size: 0.7rem;
+  }
+  
+
+
+
+
+
 
   /* SECCION ACERCA DE MI */
 
@@ -42,7 +89,6 @@
   /* SECCION HABILIDADES */
 
   .habilidadesHobbies {
-
   }
   .habilidadesHobbies-softHard {
     flex-direction: column-reverse;
@@ -101,32 +147,29 @@
     margin: 10px 10px 0px 10px;
   }
 
-/* SECCION CONTACTO */
+  /* SECCION CONTACTO */
 
-.contacto {
-  flex-direction: column;
-}
-.contacto-izq {
-  width: 90%;
-  margin: 10px;
-}
-.contacto-der {
-  width: 90%;
-  margin: 10px;
-}
-.contacto-input {
-  width: 38%;
-  /* padding: 12px; */
-  /* margin: 20px 10px; */
-}
-.contacto-textarea {
-  width: 90%;
-  /* padding: 12px; */
-  /* margin: 10px; */
-}
-
-
-
+  .contacto {
+    flex-direction: column;
+  }
+  .contacto-izq {
+    width: 90%;
+    margin: 10px;
+  }
+  .contacto-der {
+    width: 90%;
+    margin: 10px;
+  }
+  .contacto-input {
+    width: 38%;
+    /* padding: 12px; */
+    /* margin: 20px 10px; */
+  }
+  .contacto-textarea {
+    width: 90%;
+    /* padding: 12px; */
+    /* margin: 10px; */
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
