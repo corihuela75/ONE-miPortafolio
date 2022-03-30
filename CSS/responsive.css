@@ -88,8 +88,6 @@
 
   /* SECCION HABILIDADES */
 
-  .habilidadesHobbies {
-  }
   .habilidadesHobbies-softHard {
     flex-direction: column-reverse;
     justify-content: space-between;

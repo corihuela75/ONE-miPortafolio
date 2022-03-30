@@ -8,7 +8,7 @@
 .formaciones-tabla-educacion,
 .formaciones-tabla-experiencia {
   width: 50%;
-  border-left: solid #bcbcbc 1px;
+  /* border-left: solid #bcbcbc 1px; */
   font-family: "Montserrat", sans-serif;
   vertical-align: top;
 }
