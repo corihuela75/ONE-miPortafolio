@@ -3,8 +3,6 @@
 .footer {
   text-align: center;
   width: 100%;
-  border-top: 1px solid #555555;
-  
 }
 .footer-iconos a {
   color: #333;
@@ -36,4 +34,8 @@
 }
 .iconos-sociales #social-em:hover {
   color: #f39c12;
+}
+.footer span {
+  color: #f39c12;
+  font-weight: 600;
 }

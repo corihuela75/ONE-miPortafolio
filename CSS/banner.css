@@ -6,9 +6,7 @@
   height: 700px;
   background-blend-mode: lighten;
   background: url("../img/mdp_panoramica.jpg") no-repeat center;
-  
 }
-
 .banner-texto {
   padding-top: 10%;
   padding-left: 20%;
@@ -31,3 +29,16 @@
   line-height: 18px;
   font-size: 16px;
 }
+.banner-links {
+  font-size: 1rem;
+  color: #6a6a6a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: none;  
+  padding: 20px 20px  0 0;
+}
+.banner-links:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+

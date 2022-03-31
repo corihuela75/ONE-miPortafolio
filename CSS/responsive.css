@@ -56,7 +56,7 @@
     margin-bottom: 0.5rem;
     font-size: 0.75rem;
   }
-  .banner-texto p {
+  .banner-texto p, .banner-links {
     line-height: 0.7rem;
     font-size: 0.7rem;
   }
@@ -85,7 +85,9 @@
     border-radius: 50%;
     padding: 5px;
   }
-
+  .acerca-biografia {
+    margin: 0 20px;
+  }
   /* SECCION HABILIDADES */
 
   .habilidadesHobbies-softHard {
@@ -107,12 +109,13 @@
   }
   .habilidadesHobbies-grilla {
     grid-template-columns: 125px 125px;
-    grid-template-rows: repeat(8, 125px);
+    grid-template-rows: repeat(2, 125px);
     grid-gap: 10px 10px;
     justify-content: center;
   }
+    
   .habilidadesHobbies-info {
-    margin-top: 30px;
+    margin-top: 55px;
     font-size: 1.1rem;
   }
 

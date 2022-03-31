@@ -4,6 +4,7 @@
   margin: 0 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .acerca-miFoto_img {
   object-fit: contain;
@@ -14,4 +15,7 @@
   border-width: 5px;
   border-radius: 50%;
   padding: 5px;
+}
+.acerca-miTexto{
+  margin-right: 30px;
 }

@@ -31,11 +31,10 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-decoration: none;
-  color: #f39c12;
-  text-transform: lowercase;
+  color: #4f4f4f;
   font-stretch: condensed;
 }
 .menu-lista-link:hover {
   text-decoration: underline;
-  color: #4f4f4f;
+  color: #f39c12;
 }
